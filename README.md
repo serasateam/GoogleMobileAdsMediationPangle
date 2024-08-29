@@ -7,10 +7,12 @@ To integrate the Pangle SDK into your project using Swift Package Manager:
 1. Add it to the dependencies of your Package.swift:
 ```objc
     dependencies: [
-        .package(url: "https://github.com/serasateam/GoogleMobileAdsMediationPangle", .exact("5.8.0"))
+        .package(url: "https://github.com/serasateam/GoogleMobileAdsMediationPangle", .exact("5.8.0-release.8"))
     ]
 ```
 2. Enable the `-ObjC` flag in Xcode: select Build Settings, search for Other Linker Flags and add `-ObjC`.
+
+3. Check and add if necessary in your project, [Google Mobile Ads Adapter](https://developers.google.com/admob/ios/mediation/pangle#pangle-ios-mediation-adapter-changelog).
 
 Check out our [integration docs](https://www.pangleglobal.com/zh/integration/integrate-pangle-sdk-for-ios) for more info on getting started with Pangle SDK.
 
