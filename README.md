@@ -7,7 +7,7 @@ To integrate the Pangle SDK into your project using Swift Package Manager:
 1. Add it to the dependencies of your Package.swift:
 ```objc
     dependencies: [
-        .package(url: "https://github.com/serasateam/GoogleMobileAdsMediationPangle", .exact("5.8.0-release.8"))
+        .package(url: "https://github.com/serasateam/GoogleMobileAdsMediationPangle", .exact("6.3.1-release.2"))
     ]
 ```
 2. Enable the `-ObjC` flag in Xcode: select Build Settings, search for Other Linker Flags and add `-ObjC`.
